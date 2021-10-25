@@ -1,9 +1,17 @@
 import re 
 import os 
+import shutil
 import unicodedata
 import zipfile
 
-
+def clean_dir(data_dir):
+    if os.path.exists(data_dir):
+        print(f"Cleaning directory {data_dir}...")
+        shutil.rmtree(data_dir, ignore_errors=True)
+        os.system(f"mkdir {data_dir}")
+    else:
+        print("Directory does not exist")
+        
 def preprocess_sentence(sent):
     sent = "".join([c for c in unicodedata.normalize('NFD', sent)
                    if unicodedata.category(c) != 'Mn'])
