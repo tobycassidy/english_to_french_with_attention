@@ -11,4 +11,6 @@ The data used for this analysis is sourced from Anki: [Tab-delimited Bilingual S
 ### 2. Environment
 
 
-### 3. Model Architecture
+### 3. Model Architecture / High Level Concept
+
+![concept](concept.png)
