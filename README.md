@@ -3,6 +3,11 @@
 This repo intends to walkthrough a use case for sequence to sequence with attention, specifically for translating English to French. Using attention with this use case can be of a real benefit as the context/meaning of the sentence as a whole can be emphasised rather than simply translating a mapping from each english word to each french word. 
 
 ---
+## Model Architecture / High Level Concept
+---
+![concept](concept.png)
+
+---
 ## Usage
 ---
 ### 1. Data 
@@ -10,7 +15,3 @@ The data used for this analysis is sourced from Anki: [Tab-delimited Bilingual S
 
 ### 2. Environment
 
-
-### 3. Model Architecture / High Level Concept
-
-![concept](concept.png)
