@@ -14,4 +14,7 @@ This repo intends to walkthrough a use case for sequence to sequence with attent
 The data used for this analysis is sourced from Anki: [Tab-delimited Bilingual Sentence Pairs ](http://www.manythings.org/anki/). The sentence pairs of specific interest for the English to French use case can be found in the fra-eng.zip and are stored in this repo under data for convenience.
 
 ### 2. Environment
+Please prepare an environment with python==3.8.0, and then use the command "pip install -r requirements.txt" for the dependencies. Note these dependencies in the requirements.txt are not as lean as they could be as this environment is set up to work for multiple tobycassidy repos. 
 
+### 3. Run
+Once the environment has been configured, simply go through the "walkthrough.ipynb" notebook at your own pace. The cell outputs have been committed to this repo so the walkthrough notebook does not need to be ran and environments do not need to be configured for convenience.  
